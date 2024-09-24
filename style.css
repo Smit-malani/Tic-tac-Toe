@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+#tic_tac_parents{
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    grid-gap: 5px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    font-size: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rbtn{
+    margin-top: 50px;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    background-color: yellowgreen;
+    border-radius: 10px;
+}
+
+.winnerclass{
+    background-color: lightgreen;
+}
